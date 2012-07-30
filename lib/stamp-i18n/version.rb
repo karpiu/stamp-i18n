@@ -1,5 +1,3 @@
-module Stamp
-  module I18n
+module StampI18n
     VERSION = "0.0.1"
-  end
 end
