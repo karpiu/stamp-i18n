@@ -20,6 +20,10 @@ Or install it yourself as:
     $ gem install stamp
     $ gem install stamp-i18n
 
+## Before using
+
+This gem uses i18n translation mechnism, which means before using it, first we need to add proper translation files to locales folder and then setup i18n configuration. Example YML file used for testing is written in polish - it is located in locale/pl.yml. Look for more examples here: [https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale](https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale)
+
 ## Usage
 
 Same as in [http://rubydoc.info/gems/stamp](http://rubydoc.info/gems/stamp) but instead of using method 'stamp' like this:
@@ -33,7 +37,7 @@ we are using new method 'localize_stamp' like this:
     date.localize_stamp("March 1, 1999")         #=> "junio  9, 2011" if locale is :de
     date.localize_stamp("March 1, 1999")         #=> "czerwiec  9, 2011" if locale is :pl
     
-Note that we are still using english names as examples passed to stamp methods.
+Note that we are still using english names in examples passed to stamp methods.
 
 ## Contributing
 
