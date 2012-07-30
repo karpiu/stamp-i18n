@@ -17,4 +17,5 @@ Gem::Specification.new do |gem|
   
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "stamp"
+  gem.add_development_dependency "i18n"
 end
