@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe StampI18n do
 
-  it 'should use old stamp methods' do
+  it 'should use old stamp method' do
     date = Date.new(2011, 6, 9)
     date.stamp("March 1, 1999").should == "June  9, 2011"
     date.stamp("Jan 1, 1999").should == "Jun  9, 2011"
