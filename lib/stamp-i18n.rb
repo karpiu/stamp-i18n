@@ -8,8 +8,8 @@ require "stamp-i18n/version"
 require 'stamp'
 
 module StampI18n
-  def localize_stamp(example)
-    I18n.localize self, :format => strftime_format(example)
+  def localize_stamp(example, options={})
+    I18n.localize self, options.merge({:format => strftime_format(example)})
   end
   alias :l_stamp :localize_stamp
 end
