@@ -8,17 +8,12 @@ Little plugin for 'stamp' gem. It uses I18n locale files to customize date and t
 
 Add this lines to your application's Gemfile:
 
-    gem 'stamp'
+    gem 'stamp', '0.4.0' # does not work with newer versions
     gem 'stamp-i18n'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install stamp
-    $ gem install stamp-i18n
 
 ## Before using
 
