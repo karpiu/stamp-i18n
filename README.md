@@ -4,6 +4,8 @@
 
 Little plugin for 'stamp' gem. It uses I18n locale files to customize date and time stamps.
 
+**This only works with versions of `stamp` up to 0.4. Check out [stamp-l10n](https://github.com/TandaHQ/stamp-l10n) for more recent versions of `stamp`.**
+
 ## Installation
 
 Add this lines to your application's Gemfile:
